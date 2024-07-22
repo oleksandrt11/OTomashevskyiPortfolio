@@ -2,3 +2,15 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.col3{
+  background-color: cyan;
+}
+
+#OR{
+  margin-top: 20px;
+}
+
+.list-group:hover{
+  color:blue;
+}
