@@ -4,7 +4,7 @@ html {
 }
 
 .col3{
-  background-color: cyan;
+  background-color: white;
 }
 
 #OR{
@@ -13,4 +13,17 @@ html {
 
 .list-group:hover{
   color:blue;
+}
+
+
+p{
+  color: black;
+}
+
+#contact{
+  color:black ;
+}
+
+#skills{
+  padding: 10px;
 }
