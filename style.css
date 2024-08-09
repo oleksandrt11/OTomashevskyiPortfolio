@@ -4,12 +4,13 @@ html {
 }
 
 
-#contact{
+.container2,
+ #Verify {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #150404;
+  background-color: #212121;
   color:white;
   padding-top: 10px;
   margin-top: 0%;
@@ -17,18 +18,21 @@ html {
 
  
 
- #contact a {
-   width: 150px; 
+ .container2 a {
+   width: 1000px; 
    height: 50px; 
    display:inline-block;
-  margin-right: 100px;
+  
  }
- #contact a:hover {
+ 
+.container2 a:hover {
    transform: scale(1.2);
    transition: transform 0.2s ease; 
  }
 
-
+#Verify{
+  display: inline;
+}
 
 /* skills */
 a {
