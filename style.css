@@ -7,15 +7,24 @@ html {
 .container2{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #050623;
-  color:white;
+  color:#f1eeee;
   padding-top: 10px;
   margin-top: 0%;
 }
 
+.container4{
+  justify-content: space-around;
+  background-color: #050623;
+}
+
+.container9{
+  background-color: black !important;
+}
+
  #AV {
-   padding-right: 0px;
+   padding-right: 70px;
  }
   
 
@@ -25,71 +34,72 @@ html {
   border-style: solid;
   border-width: 5px;
   border-radius: 0px;
-  margin-right: 10px;
   padding: 10px;
   margin-bottom: 40px;
   margin-top:10px;
   border-color: white;
+  transition: all ease-in-out 0.35s; 
+  margin-right: 50px;
 }
 
 #verify:hover{
   transform: scale(1.2);
-   transition: transform 0.35s ease; 
+   
 }
 
 
 #CM,
 #tel,
 #email{
- 
+ padding-left: 30px;
   width: 100%;
-  margin-right: 60px;
+  
 }
 
 
  .container2 a {
-   width: 100px; 
+   width: 50px; 
    height: 50px; 
    display:inline-block;
-  
+   transition: all ease-in-out 0.35s; 
  }
  
 .container2 a:hover {
    transform: scale(1.2);
-   transition: transform 0.35s ease; 
+
  }
 
-#Verify{
-  display: inline;
-}
+
 
 /* skills */
 a {
   color: white;
 }
 
-
+.list-inline-item{
+  transition: all ease-in-out 0.35s; 
+}
 
 .list-inline-item:hover{
    transform: scale(1.2);
-    transition: transform 0.35s ease; 
-  
 }
 
 
 .list-inline{
   margin-bottom: 70px;
+
 }
 
 p{
-  color: white;
+  color: #050505;
+  font-size: 20px;
 }
 
 
 
 #skills{
   padding-bottom:30px;
-  color: white;
+  color: #ffffff;
 }
 /* skills */
 
@@ -100,28 +110,36 @@ p{
 
 
 
-
-
 #submit{
   margin:30px;
  
 }
 
+#PI navbar a{
+  color: black;
+}
 
 
 /* navbar */
 .navbar {
-  background-color:#050623 !important;
+  background-color:#03053f !important;
 }
 
-.navbar a{
-  color: white !important;
+#nav a{
+  color: white  !important;
+  font-size: 20px;
+}
+#nav2 a{
+  color: black  !important;
   font-size: 20px;
 }
 
 .navbar-toggler {
   background-color: white !important;
 }
+
+
+
   /* navbar */
 
 /*=========================================
@@ -153,7 +171,7 @@ p{
   padding-right: 1rem;
   font-size: 1rem;
   line-height: 1.5;
-  color: #fff;
+  color:#050505;
   background-color: #0F6EFD;
   border-radius: 0.35rem;
   display: flex;
@@ -175,14 +193,72 @@ p{
 }
 
 
+/*=========================================
+  to-do app
+/* ======================================*/ 
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  padding: 10px;
+  border: 1px solid #030303;
+  border-radius: 5px 0 0 5px;
+}
+
+#addButton {
+  padding: 10px;
+  padding-right: 10px;
+  border: none;
+  background-color: #28a745;
+  color: #0a0a0a;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+#addButton:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ li {
+  color: #080808;
+  padding-left: 20px;
+  font-size: 20px;
+}
+ li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button.delete {
+  background-color: #dc3545;
+  border: none;
+  padding: 5px 10px;
+  color: #080707;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left:10px;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+.accordion-body{
+  color:black !important;
+}
 
 
 
-
-
-
-
-
+#collapseTwo{
+  color: black;
+}
 
 
 
